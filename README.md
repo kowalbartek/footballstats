@@ -1,1 +1,1 @@
-# footballstats
+Football Statistics App
