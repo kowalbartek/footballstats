@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Statz | Forums</title>
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700" rel="stylesheet">
+    <link rel="icon" href="https://gitlab.cs.nuim.ie/group-16/cs353/-/raw/main/assets/img/Logo.ico" type="image/icon">
+    <meta name="author" content="Bartosz Kowal">
+    <link rel="stylesheet" href="../../css/searchStyle.css" type="text/css">
+    <link rel="script" href="../../js/script.js">
+</head>
+
+<div class="loader_bg">
+    <img class="loader" src="https://gitlab.cs.nuim.ie/group-16/cs353/-/raw/main/assets/img/LoadingAnimation.gif" alt="Football">
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script> setTimeout(function () {
+    $('.loader_bg').fadeToggle(); }, 1000);
+</script>
+
+<body class="site-layout">
+
+<!-- SITE WRAPPER -->
+<div class="site-wrapper">
+    <div class="top-bar">
+        <p id="demo">Forums Chat</p>
+    </div>
+
+    <video id="vid" playsinline autoplay muted loop>
+        <source src="https://gitlab.cs.nuim.ie/group-16/cs353/-/raw/main/assets/img/background_video.mp4" type="video/mp4">
+    </video>
+
+    <script> document.getElementById("vid").disablePictureInPicture = true; </script>
+    <div>
+        <p class="center">Future features coming soon.</p>
+    </div>
+
+    <div class="nav-bar">
+
+        <!-- NAVIGATION -->
+        <header id="header" class="site-header site-header--bottom">
+
+            <!-- Logo - Image Based -->
+            <div class="header-logo header-logo--img">
+                <a href="../../index.html">
+                    <img src="https://gitlab.cs.nuim.ie/group-16/cs353/-/raw/main/assets/img/Logo.png" alt="Football Statistics Logo"></a>
+            </div>
+
+
+
+            <!-- Left side navigation -->
+            <nav class="main-nav__list">
+                <ul class="nav">
+                    <!-- FIRST OPTION -->
+                    <li class="ele"><a href="http://localhost:63342/FootballWebApp/pages/index.html">Home</a></li>
+
+                    <!-- SECOND OPTION -->
+                    <li class="ele"><a href="../../pages/teams/teams-list.html">Teams</a>
+                        <ul class="main-nav__sub">
+                            <li class=""><a href="../../pages/teams/teams-search.html">>Search</a></li>
+                            <li class=""><a href="../../pages/teams/teams-list.html">>List</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- THIRD OPTION -->
+                    <li class="ele"><a href="#">Matches</a>
+                        <ul class="main-nav__sub">
+                            <li class=""><a href="#">>Stats</a></li>
+                            <li class=""><a href="../../pages/matches/matches-upcoming.html">>Upcoming</a></li>
+                            <li class=""><a href="../../pages/matches/matches-replays.html">>Replays</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- FOURTH OPTION -->
+                    <li class="ele"><a href="../../pages/teams/teams-list.html">Teams</a>
+                        <ul class="main-nav__sub">
+                            <li class=""><a href="../../pages/teams/teams-search.html">>Search</a></li>
+                            <li class=""><a href="../../pages/teams/teams-list.html">>List</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- FIFTH OPTION -->
+                    <li class="ele"><a href="#">Matches</a>
+                        <ul class="main-nav__sub">
+                            <li class=""><a href="#">>Stats</a></li>
+                            <li class=""><a href="../../pages/matches/matches-upcoming.html">>Upcoming</a></li>
+                            <li class=""><a href="../../pages/matches/matches-replays.html">>Replays</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- SIXTH OPTION -->
+                    <li class="ele"><a href="#">Login</a></li>
+
+                </ul>
+            </nav>
+        </header>
+
+    </div>
+</div>
+</body>
+
+<style>
+    .center {
+        margin-top: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+        border-radius: 10px;
+    }
+</style>
+</html>
